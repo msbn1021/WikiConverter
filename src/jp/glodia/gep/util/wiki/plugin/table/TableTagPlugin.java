@@ -1,8 +1,5 @@
 package jp.glodia.gep.util.wiki.plugin.table;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import jp.glodia.gep.exception.GepException;
 import jp.glodia.gep.util.wiki.plugin.BaseGepWikiPlugin;
 

@@ -1,8 +1,5 @@
 package jp.glodia.gep.util.wiki.plugin.function;
 
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 import jp.glodia.gep.exception.GepException;
 import jp.glodia.gep.util.wiki.plugin.BaseGepWikiPlugin;
 
@@ -14,15 +11,15 @@ import jp.glodia.gep.util.wiki.plugin.BaseGepWikiPlugin;
  */
 public abstract class FunctionTagPlugin extends BaseGepWikiPlugin {
 
-	/** Wiki機能記号 */
-	protected String wikiFunctionSymbol;
-	
+    /** Wiki機能記号 */
+    protected String wikiFunctionSymbol;
+
     /** Html機能記号 */
     protected String htmlFunctionSymbol;
 
     /** タグオプション文字列 */
     protected String options;
-	
+
     /*
      * (非 Javadoc)
      * @see jp.glodia.gep.util.wiki.plugin.GepWikiPlugin
@@ -42,11 +39,11 @@ public abstract class FunctionTagPlugin extends BaseGepWikiPlugin {
      */
     @Override
     public String convert(String wikiText) throws GepException {
-    	//独自に定義する。
+        //独自に定義する。
         return wikiText;
     }
-    
-    
-    
-    
+
+
+
+
 }
